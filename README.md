@@ -14,9 +14,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
+## 🚀 Rodando o projeto
+
+[DESSE LINK](https://thamiresvs.github.io/perfil-usuario/)
+
 ## 📚 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://figma.com/file/MF894TdzM99Fg0Ssu$KyMq/DevLinks-(Copy)?node-id1%3A113&t=8x94o7ecTaQMC2CS-1/duplicate). É necessário ter conta no [FIGMA](https://figma.com) para acessá-lo.
+
 ## :memo: Licença
 
 Esse projeto está sob licença MIT.
