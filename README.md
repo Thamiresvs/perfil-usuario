@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📚 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://figma.com/file/MF894TdzM99Fg0Ssu$KyMq/DevLinks-(Copy)?node-id1%3A113&t=8x94o7ecTaQMC2CS-1/duplicate). É necessário ter conta no [FIGMA](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK]([https://figma.com/file/MF894TdzM99Fg0Ssu$KyMq/DevLinks-(Copy)?node-id1%3A113&t=8x94o7ecTaQMC2CS-1/duplicate](https://www.figma.com/file/y9TYS0uD22aVp0nD4dvNSE/DevLinks-•-Projeto-Discover-(Community)?type=design&node-id=10-620&mode=design&t=gnebVhhzSNfSByQ1-0)https://www.figma.com/file/y9TYS0uD22aVp0nD4dvNSE/DevLinks-•-Projeto-Discover-(Community)?type=design&node-id=10-620&mode=design&t=gnebVhhzSNfSByQ1-0). É necessário ter conta no [FIGMA](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
