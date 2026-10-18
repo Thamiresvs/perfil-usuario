@@ -64,9 +64,34 @@ body {
   color: var(--text-main);
 }
 
-/* HERO */
+/* HERO SECTION LADO A LADO */
 .hero {
-  padding: 80px 0 60px;
+  padding: 60px 0 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-avatar-wrapper {
+  flex-shrink: 0;
+}
+
+.hero-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid var(--accent-color);
+  object-fit: cover;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.hero-avatar:hover {
+  transform: scale(1.03);
+}
+
+.hero-content {
+  flex-grow: 1;
 }
 
 .badge-status {
@@ -77,27 +102,28 @@ body {
   font-size: 0.85rem;
   border: 1px solid rgba(56, 189, 248, 0.3);
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  line-height: 1.2;
 }
 
 .hero h2 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: var(--accent-color);
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .hero-description {
   color: var(--text-muted);
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin-bottom: 30px;
+  font-size: 1.05rem;
+  max-width: 650px;
+  margin-bottom: 24px;
 }
 
 .hero-buttons {
@@ -136,13 +162,17 @@ body {
 }
 
 /* TECHS */
-.techs-section {
-  padding: 40px 0;
+.tech-category {
+  margin-bottom: 24px;
 }
 
-.techs-section h3 {
-  margin-bottom: 20px;
-  color: var(--text-main);
+.tech-category h4 {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .tech-grid {
@@ -172,7 +202,48 @@ body {
   padding: 40px 0;
 }
 
-.about-card,
+.about-card p {
+  margin-bottom: 16px;
+  color: var(--text-muted);
+}
+
+.about-card h4 {
+  color: var(--text-main);
+  margin: 20px 0 12px;
+  font-size: 1.05rem;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.about-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+}
+
+.about-list li::before {
+  content: "•";
+  color: var(--accent-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.about-list strong {
+  color: var(--text-main);
+}
+
+.about-goal {
+  border-left: 3px solid var(--accent-color);
+  padding-left: 15px;
+  font-style: italic;
+  margin-top: 15px;
+}
 .contact-box {
   background-color: var(--bg-card);
   padding: 30px;
@@ -209,14 +280,27 @@ body {
   margin-top: 40px;
 }
 
-/* RESPONSIVO */
+/* RESPONSIVIDADE (MOBILE / TABLET) */
 @media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-avatar {
+    width: 130px;
+    height: 130px;
+  }
+
   .hero h1 {
     font-size: 2rem;
   }
+
   .nav {
     display: none;
   }
+
   .hero-buttons {
     flex-direction: column;
   }
