@@ -11,5 +11,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Rodando o projeto
 
-[DESSE LINK](https://thamiresvs.github.io/perfil-usuario/)
+[ESSE LINK](https://thamiresvs.github.io/perfil-usuario/)
 
